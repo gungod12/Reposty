@@ -1,0 +1,27 @@
+.online{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    background:#111;
+    color:#fff;
+    padding:12px 20px;
+    border-radius:30px;
+    box-shadow:0 0 15px lime;
+    z-index:99999; /* En üstte görünür */
+}
+overflow:hidden;
+z-index:999999;
+transform:scale(1.05);
+.online{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    z-index:999999999;
+}
+.gallery{
+    position:sticky;
+    top:70px;
+    background:#0f172a;
+    padding:15px;
+    z-index:999;
+}
